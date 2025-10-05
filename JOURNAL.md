@@ -10,10 +10,18 @@ This is my journal of the design and building process of **Desktop Hub**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/197).
 
 
-## 10/5/2025 - Got Idea and created basic PCB  
+## 10/5/2025 12 PM - Got Idea and created basic PCB  
 
 I thought about some useful projects I could do and came up with this.
 A charger for your phone and other devices and some usb-a ports would be quite useful on my desktio.
 So I painted some prototypes in paint and then realized, that the hardest part is propably gonna be creating the PCB. I started with the PCB as you can see in the Image.![image-1759663517155.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTIwLCJwdXIiOiJibG9iX2lkIn19--90777b8085c2428bf13af554ea70c43ae1211563/image-1759663517155.png)
+  
+
+## 10/5/2025 8 PM - Worked on schematic for pcb  
+
+I worked on the PCB creation a Power Protection to the circuit so that if you would put too much power on the usb-c port the chips wont fry. I also added an ESD protection to protect the powerlines of the usb-a ports that you can use for your flash drives.
+
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjE5LCJwdXIiOiJibG9iX2lkIn19--8b39c6dd7b463e87db3b012e862c421b7e4eb8c9/image.png)
   
 
