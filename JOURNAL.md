@@ -25,3 +25,11 @@ I worked on the PCB creation a Power Protection to the circuit so that if you wo
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjE5LCJwdXIiOiJibG9iX2lkIn19--8b39c6dd7b463e87db3b012e862c421b7e4eb8c9/image.png)
   
 
+## 10/6/2025 - Symbol creation for pcb  
+
+I again worked on the pcb and added the Power Switches for the usb-a ports and all that comes with that.
+After that I worked on my own symbol, because it doesn't exist yet so I'm working on creating the 48pin chip only got one of the 4 sides done but in the future working on all others.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzk1LCJwdXIiOiJibG9iX2lkIn19--29f808dfa5c59f1aaba005d72109f20a2bca59f8/image.png)
+  
+
