@@ -10,14 +10,14 @@ This is my journal of the design and building process of **Desktop Hub**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/197).
 
 
-## 10/5/2025 12 PM - Got Idea and created basic PCB  
+## 10/5/2025 2 PM - Got Idea and created basic PCB  
 
 I thought about some useful projects I could do and came up with this.
 A charger for your phone and other devices and some usb-a ports would be quite useful on my desktio.
 So I painted some prototypes in paint and then realized, that the hardest part is propably gonna be creating the PCB. I started with the PCB as you can see in the Image.![image-1759663517155.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTIwLCJwdXIiOiJibG9iX2lkIn19--90777b8085c2428bf13af554ea70c43ae1211563/image-1759663517155.png)
   
 
-## 10/5/2025 8 PM - Worked on schematic for pcb  
+## 10/5/2025 10 PM - Worked on schematic for pcb  
 
 I worked on the PCB creation a Power Protection to the circuit so that if you would put too much power on the usb-c port the chips wont fry. I also added an ESD protection to protect the powerlines of the usb-a ports that you can use for your flash drives.
 
@@ -31,5 +31,16 @@ I again worked on the pcb and added the Power Switches for the usb-a ports and a
 After that I worked on my own symbol, because it doesn't exist yet so I'm working on creating the 48pin chip only got one of the 4 sides done but in the future working on all others.
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzk1LCJwdXIiOiJibG9iX2lkIn19--29f808dfa5c59f1aaba005d72109f20a2bca59f8/image.png)
+  
+
+## 10/11/2025 - Finishing Schematic of PCB  
+
+This was a quite challenging part.
+Firstly I want to use multiple USB-Ports at simultaneously so we need a controller to control those ports. The problem is, that there were only Chinese datasheets for the chip I use so I had to manually translate the datasheet. After that I had to create the chip myself as a symbol in KiCAD which is quite time consuming. When I was done with that, I had to wire all those pins up and place a bunch of resistors and capacitors. Now I also added the USB-A ports and a USB-C port to the schematic so it is basically done. Next thing will be routing and defining the PCB and all...
+
+![Bild_2025-10-11_004856719.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTUyNywicHVyIjoiYmxvYl9pZCJ9fQ==--61952a2352b872618ef7597feebac7a35d646a4e/Bild_2025-10-11_004856719.png)
+
+![Bild_2025-10-11_004920067.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTUyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--8ef76d7b66b3d4419708c86491c2f2164b0860b4/Bild_2025-10-11_004920067.png)
+
   
 
