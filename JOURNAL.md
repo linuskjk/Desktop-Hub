@@ -33,7 +33,7 @@ After that I worked on my own symbol, because it doesn't exist yet so I'm workin
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzk1LCJwdXIiOiJibG9iX2lkIn19--29f808dfa5c59f1aaba005d72109f20a2bca59f8/image.png)
   
 
-## 10/11/2025 - Finishing Schematic of PCB  
+## 10/11/2025 12 AM - Finishing Schematic of PCB  
 
 This was a quite challenging part.
 Firstly I want to use multiple USB-Ports at simultaneously so we need a controller to control those ports. The problem is, that there were only Chinese datasheets for the chip I use so I had to manually translate the datasheet. After that I had to create the chip myself as a symbol in KiCAD which is quite time consuming. When I was done with that, I had to wire all those pins up and place a bunch of resistors and capacitors. Now I also added the USB-A ports and a USB-C port to the schematic so it is basically done. Next thing will be routing and defining the PCB and all...
@@ -42,5 +42,16 @@ Firstly I want to use multiple USB-Ports at simultaneously so we need a controll
 
 ![Bild_2025-10-11_004920067.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTUyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--8ef76d7b66b3d4419708c86491c2f2164b0860b4/Bild_2025-10-11_004920067.png)
 
+  
+
+## 10/11/2025 10 PM - Aligned the components and started routing the GND and VBUS  
+
+It took me about 2.5 hours to align all the components correctly, while ensuring the capacitors and resistors were close enough to their connectors. Finally, the layout is perfect (USB-C for upstream on the back and 2xUSB-A & 1xUSB-C on the front for downstream).
+I've also started routing the ground and VBUS pins.
+Now I'm routing all the other pins and fixing, what comes with it.
+
+
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY3OCwicHVyIjoiYmxvYl9pZCJ9fQ==--ab3f9eea3394a4b8d744b0425b2df1951a7e291f/image.png)
   
 
