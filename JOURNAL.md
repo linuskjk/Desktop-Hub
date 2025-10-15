@@ -55,3 +55,11 @@ Now I'm routing all the other pins and fixing, what comes with it.
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY3OCwicHVyIjoiYmxvYl9pZCJ9fQ==--ab3f9eea3394a4b8d744b0425b2df1951a7e291f/image.png)
   
 
+## 10/15/2025 - Routed the PCB  
+
+After some time, I've finished routing the circuit board. The main challenge was ensuring the correct track width for the charging ports so that they can be used for fast charging. Now I'm going to prepare the housing for the PCB and the MagSafe charger so that you can charge your devices wirelessly.
+
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjMyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--b40ed86d238ae1659add236be6779de54ab063f1/image.png)
+  
+
