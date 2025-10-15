@@ -1,0 +1,28 @@
+Reference,Qty,Value / Description,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,Notes
+C1,1,10uF,, , ,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,As on schematic
+C2,1,0.1uF,, , ,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,As on schematic
+C3,1,1uF,, , ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,As on schematic
+C4,1,10uF,, , ,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,As on schematic
+"C5,C7,C9,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23",15,0.1uF,, , ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,Bulk decoupling
+"C6,C8",2,0.1uF,, , ,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,As on schematic
+"C10,C11",2,222pF,, , ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,Crystal loading
+F1,1,Polyfuse 1206,, , ,Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~,VBUS overcurrent protection
+FB1,1,Ferrite Bead 0805,, , ,Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,EMI on VBUS
+H1,1,MountingHole,,Excluded from BOM, , , ,Mechanical hole (NPTH)
+"J1,J2",2,USB_C_Receptacle_USB2.0_16P,, , ,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,Upstream and downstream USB-C
+"J3,J4",2,USB_A,, , ,Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal,~,USB-A downstream ports
+"R1,R2,R7,R8",4,5.1k,, , ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,Pull-downs/dividers
+"R3,R4,R9,R10,R11,R12,R13,R14",8,27,, , ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,Pull-downs
+R5,1,12k,, , ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,Net resistors
+R6,1,10k,, , ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,Pull-up
+"U1,U7,U8,U9",4,USBLC6-2SC6 (ESD Diode),, , ,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,USB ESD protection
+U2,1,AP2112K-3.3 (LDO),, , ,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf,3.3V regulator
+"U3,U4",2,TPS2051CDBV (USB power switch),, , ,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/tps2051c.pdf,Per-port power switch
+U5,1,GL852G (LQFP-48) hub controller,, , ,Package_QFP:LQFP-48_7x7mm_P0.5mm,,Verify footprint and paste
+U6,1,TPS2051CDBV (USB power switch),, , ,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,https://www.ti.com/lit/ds/symlink/tps2051c.pdf,Per-port power switch
+Y1,1,12MHz Crystal 5032,, , ,Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering,~,Hub clock
+
+# Additional non-PCB items and accessories (not mounted on PCB)
+USB-C upstream cable,1,USB-C to USB-A (or C-to-C) cable, ,Exclude from BOM, ,Cable,~,Use appropriate cable for host connection (choose C-to-C for modern hosts)
+MagSafe adapter (external),1,Apple MagSafe adapter or magnetic power adapter (optional),,Exclude from BOM, ,Accessory,~,Optional external magnetic power adapter; verify model compatibility – not a PCB part
+5V DC power adapter (optional),1,5V 2A power supply (if using external power),,Exclude from BOM, ,Accessory,~,Optional external power supply for VBUS when used standalone
